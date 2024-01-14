@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  text-align: center;
+  width: 451px;
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+#output {
+  width: 250px;
+  /* text-align: center; */
+  font-size: 20px;
+  /* margin-bottom: 25px; */
+}
+
+.viewer {
+  display: inline-flex;
+  flex-direction: column;
+  width: 211px;
+  height: 150px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.namer {
+  display: inline-block;
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dicer {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+}
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px;
+}
+
+.black {
+  background: black;
+}
+
+.white {
+  background: transparent;
+}
